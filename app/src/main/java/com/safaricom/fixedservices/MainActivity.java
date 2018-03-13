@@ -10,7 +10,7 @@ import android.widget.EditText;
 /**
  * MainActivity
  * The main entry to the application from the launcher application
- * Created by codemonster on 3/13/18.
+ * Created by Victor Rwanda <vrwanda@safaricom.co.ke> on 3/13/18.
  */
 
 public class MainActivity extends Activity {
