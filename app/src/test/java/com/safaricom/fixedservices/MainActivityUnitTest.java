@@ -1,5 +1,7 @@
 package com.safaricom.fixedservices;
 
+import org.junit.Test;
+
 /**
  * MainActivityUnitTest
  * Contains java unit test for the main activity class
@@ -7,4 +9,20 @@ package com.safaricom.fixedservices;
  */
 
 public class MainActivityUnitTest {
+
+    @Test
+    public void testSettingViewData() {
+    }
+
+    @Test
+    public void testResettingViewData() {
+    }
+
+    @Test
+    public void testLoginSuccessWithViewData() {
+    }
+
+    @Test
+    public void testLoginFailedWithoutViewData() {
+    }
 }
