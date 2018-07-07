@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
      * @param username
      * @param password
      */
-    public void setViewData(String username, String password){
+    public void setViewData(String username, String password) {
         etUsername.setText(username);
         etPassword.setText(password);
     }
@@ -45,16 +45,28 @@ public class MainActivity extends Activity {
     /**
      * Clears user data after authentication
      */
-    public void  clearViewData(){
+    public void clearViewData() {
         etUsername.setText("");
         etPassword.setText("");
     }
 
     /**
      * Authenticates a user
+     *
      * @return
      */
-    public boolean loginUser(){
-        return etUsername.length()>0 && etPassword.length()>0;
+    public boolean loginUser() {
+        return authenticateUser(etUsername.getText().toString(), etPassword.getText().toString());
+    }
+
+    /**
+     * Authenticate user if any data was provided
+     *
+     * @param username
+     * @param password
+     * @return
+     */
+    public boolean authenticateUser(String username, String password) {
+        return username.length() > 0 && password.length() > 0;
     }
 }

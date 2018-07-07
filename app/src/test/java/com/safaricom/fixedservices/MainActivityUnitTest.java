@@ -1,5 +1,10 @@
 package com.safaricom.fixedservices;
 
+import android.test.ActivityInstrumentationTestCase;
+import android.test.ActivityInstrumentationTestCase2;
+import android.widget.Button;
+import android.widget.EditText;
+
 import org.junit.Test;
 
 /**
@@ -9,20 +14,4 @@ import org.junit.Test;
  */
 
 public class MainActivityUnitTest {
-
-    @Test
-    public void testSettingViewData() {
-    }
-
-    @Test
-    public void testResettingViewData() {
-    }
-
-    @Test
-    public void testLoginSuccessWithViewData() {
-    }
-
-    @Test
-    public void testLoginFailedWithoutViewData() {
-    }
 }
